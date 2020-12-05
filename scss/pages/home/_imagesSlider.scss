@@ -1,0 +1,46 @@
+#imagesSlider {
+	position: relative;
+	.owl-dots {
+		display: none;
+	}
+	.owl-nav {
+		button {
+			i {
+				border-radius: 50%;
+				border: 1px solid #ffffff;
+				color: #ffffff;
+				font-size: 26px;
+				display: flex;
+				height: 35px;
+				width: 35px;
+				align-items: center;
+				justify-content: center;
+				margin: auto;
+			}
+		}
+		.owl-prev {
+			i {
+				padding: 0 3px 0 0;
+			}
+			position: absolute;
+			height: 100%;
+			top: 0;
+			width: 70px;
+			outline: 0 !important;
+			box-shadow: none;
+			left: 0;
+		}
+		.owl-next {
+			i {
+				padding: 0 0 0 3px;
+			}
+			position: absolute;
+			height: 100%;
+			top: 0;
+			width: 70px;
+			outline: 0 !important;
+			box-shadow: none;
+			right: 0;
+		}
+	}
+}

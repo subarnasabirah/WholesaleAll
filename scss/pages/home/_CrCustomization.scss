@@ -1,0 +1,78 @@
+#CRcustomization {
+  padding-bottom: 100px;
+
+  .border-top {
+    border-top: 2px solid #3f3f3f;
+  }
+
+  .customize-CR {
+    h2 {
+      padding: 30px 0px;
+      font-size: 40px;
+    }
+
+    p {
+      @include futura-book;
+      max-width: 675px;
+      margin-bottom: 30px;
+      line-height: 28px;
+      font-size: 17px;
+
+    }
+  }
+
+  .mouthpiece-head {
+    color: #A0B5AB;
+    border-bottom: 2px solid #A0B5AB;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+
+  .mouthpice-option {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    li {
+      display: inline-block;
+      width: 158px;
+    }
+
+  }
+
+  .mouthpiece-color {
+    margin-bottom: 30px;
+
+    .mouthpiece-color-content {
+      ul {
+        margin: 0px;
+        padding: 0px;
+
+        li {
+          line-height: 35px;
+          font-size: 14px;
+        }
+      }
+
+    }
+  }
+
+  .margin-tb {
+    margin-bottom: 30px;
+    max-width: 405px;
+  }
+
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+
+  .start-customization-btn{
+    margin-top: 30px;
+  a {
+    color: #3f3f3f;
+    border: 2px solid #3f3f3f;
+    padding: 8px 30px;
+    font-size: 14px;
+  }
+}
+
+}

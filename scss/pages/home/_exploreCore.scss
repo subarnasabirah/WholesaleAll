@@ -1,0 +1,50 @@
+.explore-core-bg{
+    background-color: $white;
+    .explore-core{
+        margin: auto;
+        max-width: 405px;
+        .explore-core-content{
+            h5{
+                text-transform: uppercase;
+            }
+            p {
+                @include futura-book;
+                font-size: 17px;
+                color: #383838;
+                line-height: 25px;
+                .max-chs{
+                    @include futura-bold;
+                    font-size: 17px;
+                    text-transform: capitalize;
+                }
+
+            }
+
+            .next-generation{
+                padding: 15px 0px;
+                @include futura-book;
+                color: #A0B5AB;
+                margin: 15px 0;
+                font-size: 18px;
+                .ceramic-system{
+                    @include futura-bold;
+                    font-size: 18px;
+                    text-transform: capitalize;
+                    img{
+                        margin-left: 8px;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .min-height{
+        height: 400px;
+    }
+    .no-padding{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}

@@ -1,0 +1,18 @@
+#maxcorea-area{
+    background-image: url(../img/maxcore-banner-img.jpg);
+    background-size: cover;
+    height: 380px;
+    @media (max-width: 767px) {
+        height: 300px;
+        background-image:url(../img/maxcore-banner-img-mbl.jpg);
+    }
+    .maxcore-content {
+        margin: auto;
+        img {
+            @media (max-width: 767px) {
+                width: 65%;  
+                margin: auto;            
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+#goodStuff{
+    .good-stuff-content{
+        position: relative;
+        min-height: 500px;
+        background-size: cover;
+        background-position: 50%;
+        background-image: url(../img/good-stuff/good-stuff-img.jpg);
+        .caption{
+            margin: auto;
+            max-width: 345px;
+            color: $white;
+            padding-top: 105px;
+                h4{
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-bottom: 15px;
+                    text-transform: uppercase;
+                }
+                a{
+                    text-decoration: none;
+                    margin-top: 15px;
+                }
+                .hwolesale-vape-btn{
+                    text-transform: uppercase;
+                    color: $white;
+                    border-bottom: 2px solid #fff;
+                }
+
+        }
+    }
+    .vaporization{
+        position: relative;
+        min-height: 500px;
+        background-size: cover;
+        background-position: 50%;
+        background-image: url(../img/good-stuff/3.jpg);
+        .caption{
+            margin: auto;
+            max-width: 400px;
+            color: $white;
+            padding-top: 105px;
+                h4{
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-bottom: 15px;
+                    text-transform: uppercase;
+                }
+                a{
+                    text-decoration: none;
+                    margin-top: 15px;
+                }
+                .hwolesale-vape-btn{
+                    text-transform: uppercase;
+                    color: $white;
+                    border-bottom: 2px solid #fff;
+                }
+
+        }
+    }
+
+    .p-0 {
+        padding: 0 !important;
+    }
+
+}

@@ -1,0 +1,20 @@
+#product-details-slider{
+    span.dot{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        display: inline-block;        
+        margin-right: 15px;
+    }
+    span.white-dot{
+        border: 1px solid #231F20;
+        background-color: #ffffff;
+    }
+    span.grey-dot{
+        background-color: #838587;
+    }
+    span.black-dot{
+        background-color: #211F20;
+    }
+    
+}

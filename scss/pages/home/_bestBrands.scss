@@ -1,0 +1,40 @@
+#bestBrands {
+    height: 600px;
+    background-image: url(../img/best-brands-banner-img.jpg);
+    background-size: cover;
+    @media (max-width: 1399px) {
+        background-position: 20%;
+    }
+    @media (max-width: 1199px) {
+        background-position: 40%;
+    }
+    @media (max-width: 767px) {
+        background-image: none;
+    }
+    .caption {
+        max-width: 300px;
+        @media (max-width: 767px) {
+           margin: auto;
+           max-width: 305px;
+        }
+
+        h3 {
+            color: #383838;
+            font-size: 47px;
+            margin-bottom: 40px;
+            @media (max-width: 767px) {
+                font-size: 34px;
+                margin-bottom: 25px;
+            }
+        }
+
+        p {
+            color: #353535;
+            font-size: 17px;
+            @include futura-book;
+            @media (max-width: 767px) {
+                font-size: 15px;
+            }
+        }        
+    }
+}

@@ -1,0 +1,62 @@
+#xcor-contact{
+    margin: 120px 0;
+    font-family: "futura-bold";
+    h1{
+        font-size: 30px;
+    }
+    h4{
+        font-family: 'futura-bold', sans-serif;
+        font-size: 18px;
+        margin-top: 35px;
+        margin-bottom: 80px;
+    }
+    #xcor-contactForm.materialize-form{
+         .form-group {
+            position: relative;
+            margin-bottom: 15px;
+           label {
+                display: inline-block;
+                max-width: 100%;
+                 margin-bottom: 5px;
+                font-weight: bold;
+                top: 19px;
+                position: absolute;
+                z-index: 222;
+                left: 15px;
+                color: #a2a4a7;
+                cursor: text;
+            }
+            input, textarea{
+                border-radius: 0;
+                min-height: 55px;
+                border-color: #a2a4a7;
+                width: 100%;
+                padding: 20px 0 0 15px;
+                font-size: 16px;
+                color: #253849;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+
+            }
+            .form-control {
+                display: block;
+                width: 100%!important;
+            }
+    }
+}
+
+    .btn-mrgn{
+        margin-top: 60px;
+        
+    }
+    a.pricing-btn{
+        color: #000000;
+        border: 2px solid #000000;
+        padding: 12px 27px;
+        font-size: 14px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "futura-bold";
+    }
+    
+}

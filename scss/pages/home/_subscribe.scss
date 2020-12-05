@@ -1,0 +1,111 @@
+#subscribe {
+    text-align: center;
+    display: block;
+    padding: 53px 0;
+    background: #A0B5AB;
+  
+    .subscribe-section {
+      max-width: 750px;
+      margin: auto;
+      display: flex;
+      @include media('tab') {
+        max-width: 720px;
+      }
+      @include media('mobile-lg') {
+        display: block;
+        max-width: 540px;
+      }
+      @include media('mobile-md') {
+        display: block;
+        max-width: 350px;
+      }
+  
+      @include media('mobile-sm') {
+       padding: 0 10px;
+      }
+  
+      .caption {
+        flex: 1;
+        max-width: 320px;
+        text-align: left;
+        @include media('mobile-md') {
+          margin: auto;
+          text-align: center;
+        }
+  
+        h2 {
+          &.sub-title {
+            font-family: futura-bold;
+            color: #383838;
+            margin-bottom: 4px;
+            font-size: 26px;
+            margin-top: 0;
+            font-weight: 400;
+            line-height: 1.1;
+          }
+        }
+  
+        p {
+          font-family: futura-bold;
+          font-size: 13px;
+          color:  #383838;
+          margin: 0 0 11px;
+        }
+      }
+  
+      .subscribe-form {
+        flex: 1;
+        position: relative;
+        display: flex;
+  
+        .email-label {
+          font-size: 14px;
+          color:  #383838;
+          font-family: futura-bold;
+          line-height: 50px;
+          left: 15px;
+          top: 2px;
+          position: absolute;
+          pointer-events: none;
+        }
+  
+        input.email {
+          flex: 2;
+          display: block;
+          height: 50px;
+          line-height: 50px;
+          width: 100%;
+          background-color:transparent;
+          font-size: 16px;
+          padding: 5px 15px;
+          border: 2px solid #383838;
+          border-radius: 0;
+          color: #243849;
+          outline: 0;
+        }
+  
+        button.submit-button {
+          flex: 1;
+          max-width: 150px;
+          height: 50px;
+          font-size: 14px;
+          padding: 0;
+          color: $white;
+          font-family: futura-bold;
+          background: #383838;
+          border: 1px solid #383838;
+          @include on-event(true) {
+            outline: 0 !important;
+          }
+          @include media('tab') {
+            max-width: 120px;
+          }
+        }
+      }
+    }
+  }
+  
+  
+  
+  
+  

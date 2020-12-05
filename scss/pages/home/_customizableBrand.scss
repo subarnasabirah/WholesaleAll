@@ -1,0 +1,25 @@
+#customizableBrand{
+    background-color: #B6BBA8;
+    text-align: center;
+    display: block;
+    padding: 100px 0;
+    .customizable-brand{
+        max-width: 575px;
+        margin: auto;
+        display: flex;
+
+    }
+    .customizable-brand-img{
+       
+    }
+    .caption{
+        max-width: 230px;
+        text-align: left;
+        margin-left: 30px;
+        p{
+            color: $white;
+            font-size: 20px;
+            
+        }
+    }
+}

@@ -1,0 +1,39 @@
+#relatedProducts {
+    background: #f1f1f1;
+    padding: 90px 0px;
+    z-index: 999;
+    position: relative;
+    .related-products-heading{
+       padding-bottom: 90px;
+        h2{
+            text-transform: uppercase;
+            font-size: 22px;
+
+        }
+    }
+    .item-img img{
+        width: 200px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .item-img.item-img-4{
+       margin-top: 40px;
+    }
+    .item-content{
+        margin-top: 20px;
+        h6{
+            color: #385273;
+            font-size: 16px;
+        }
+        h5{
+            color: #385273;
+            font-size: 18px;
+        }
+        p{
+            max-width: 182px;
+            margin: auto;
+        }
+    }
+
+}

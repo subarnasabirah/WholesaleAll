@@ -1,0 +1,36 @@
+#busyBee {
+    font-family: "futura-bold";
+    text-transform: uppercase;
+    background-color: #B7BCA9;
+    .contact-btn{
+        margin-top: 30px;
+        a {
+            display: inline-block;
+            color: #A0B5AB;
+            min-width: 250px;
+            background-color: #ffffff;
+            padding: 10px 10px;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+    }
+    .details{
+        text-align: center;
+        h3{
+            color: #ffffff; 
+            font-size: 14px;
+
+        }
+        h2{
+            color: #383838;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            
+        }
+    }
+}
+
+.mh-h-300 {
+    min-height: 300px;
+}
